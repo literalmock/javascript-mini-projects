@@ -1,0 +1,55 @@
+body{
+    background-color: cornflowerblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 80px;
+}
+#card{
+ height: 360px;
+ border-radius: 30px;
+ width: 300px;   
+ background-color: #fff;
+ text-align: center;
+}
+#card img{
+    height: 50%;
+    padding: 10px;
+    object-position: center;
+    object-fit: cover;
+    width: 80%;
+    border-radius: 50px;
+}
+#card button{
+    height: 50px;
+    width: 120px;
+    align-items: center;
+    border-radius: 15px;
+    object-position: center;
+    align-content: center;
+    background-color: burlywood;
+    margin: 20px 0px;
+
+}
+h1{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+h5{
+    font-size: 18px;
+    margin: 0px 0px;
+    color: red;}
+
+.attribute {                                                                                                                                
+    position: absolute;                                                                                                                         
+    bottom: 1rem;                                                                                                                               
+    text-align: center;                                                                                                                         
+    font-size: 0.85rem;                                                                                                                         
+    color: #111;                                                                                                                                
+ }                                                                                                                                             
+.attribute a {                                                                                                                              
+    color: #111;                                                                                                                                
+    font-weight: 600;                                                                                                                           
+}  

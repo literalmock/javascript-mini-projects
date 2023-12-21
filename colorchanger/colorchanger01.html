@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-color: rgb(43, 31, 31);
+        }
+        .button{
+            padding: 10px 30px;
+            color: black;
+            border-radius: 8px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Color Switcher</h1>
+    </center><center>
+    <span class="button"id="grey"> Grey</span>
+    <span class="button"id="red">red</span>
+    <span class="button"id="white">White</span>
+    <span class="button"id="blue">Blue</span>
+    </center>
+    <script>
+        const button = document.querySelectorAll('.button')
+        const body = document.body
+        button.forEach(function (x){
+            x.addEventListener('click',function (y){
+            console.log(y.target.id);
+            if (y.target.id == 'grey'){
+                body.style.backgroundColor = 'grey'
+            }
+            if (y.target.id == 'red'){
+                body.style.backgroundColor='red'
+            }
+            if (y.target.id == 'white'){
+                body.style.backgroundColor='white'
+            }
+            if (y.target.id == 'blue'){
+                body.style.backgroundColor='blue'
+            }
+
+            })
+        })
+    </script>
+</body>
+
+</html>
