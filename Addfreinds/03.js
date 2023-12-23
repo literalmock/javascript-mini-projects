@@ -1,7 +1,7 @@
 var button = document.querySelector('#add');
 var stat = document.querySelector('h5')
+let check = 0;
 button.addEventListener("click",function (){
-    let check = 0;
     if (check==0){
         button.innerHTML = "Remove Freind"            
         stat.innerHTML = "Freinds"
